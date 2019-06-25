@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/meeles_background"
+    >
+<!--
+    <ImageView
+        android:id="@+id/login_panel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:src="@drawable/email_panel" />
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/text_background"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/pass_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email_login"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:hint="Password"
+        android:paddingLeft="15dp"
+        android:background="@drawable/text_background"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_panel">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/btn_login"
+            android:layout_centerInParent="true"
+            android:background="#ffffff"/>
+    </RelativeLayout>
+-->
+    <EditText
+        android:id="@+id/email_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="5dp"
+        android:layout_above="@id/pass_login"
+        android:background="@drawable/box"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/pass_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_above="@id/login_btn"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/box"
+        android:hint="Password" />
+    <ImageButton
+        android:id="@+id/login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/btn_login"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="#ffffff"
+        android:layout_above="@id/gmaill_icon"/>
+    <ImageButton
+        android:id="@+id/gmaill_icon"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:src="@drawable/gmail_btn"
+        android:scaleType="centerCrop"
+        android:background="#fff"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>
